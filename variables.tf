@@ -1,19 +1,16 @@
 variable "resource_group_name" {
-    type = string
-    description = "The resource group name"
+  type = string
+
 }
 
 variable "location" {
-    type = string
-    description = "The resource location"
+  type = string
 }
 
 variable "storage_account_name" {
-    type = string
-    description = "The storage account name"
+  type = string
 }
 
 variable "environment" {
-    type = string
-    description = "The environment either Production or Development"
+  type = string
 }
